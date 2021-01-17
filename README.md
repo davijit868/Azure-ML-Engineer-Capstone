@@ -78,5 +78,5 @@ The endpoint is consumed with a JSON request where the data field is the diction
 - With hyperdrive different model like deep learning or XGBoost can also be tried.
 
 ## Link to screen cast
-https://youtu.be/NeyK1PRhtV0
+https://youtu.be/HtI5OxgvpBY
 
