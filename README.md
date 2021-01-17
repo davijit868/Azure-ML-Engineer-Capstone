@@ -1,11 +1,10 @@
-# Heart Failure predictions
+# Udacity Azure Machine Learning Engineer Capstone
 
 The goal of this project is to predict death events due to heart failure events. The data is in the comma separated values (CSV) format. Each row in this dataset describes an attributing factor for an early heart attack.
 The project pipeline is built entierly on the AzureML ecosystem and relies on AutoML and HyperDrive to find and tune the best model. 
 The final model is deployed and an endpoint is available for real-time predictions.
 To give a high-level understanding of the components of Azure and how they work together to assist in the process of building, deploying, and maintaining machine learning models.
 
-![alt text](https://github.com/hammad-alt/nd00333-capstone/blob/master/Images/architecture.JPG)
 ## Dataset
 
 ### Overview
