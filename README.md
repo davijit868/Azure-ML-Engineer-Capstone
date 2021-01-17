@@ -18,7 +18,7 @@ on the dataset i.e. a TabularDataset, we have registered the dataset using the o
 The dataset is registered in Azure ML workspace from locally uploaded csv file. It is then consumed in both the script i.e. automl.ipynb and hyperparameter_tuning.ipynb using code. 
 
 ## Automated ML
-Please find the below screenshot for the AutoML configuration used.
+An AutoML experiment is created with the configuration mentioned in the below screenshot and using automl.ipynb.
 
 ![alt text](https://github.com/davijit868/Azure-ML-Engineer-Capstone/blob/master/Screenshots/Screenshot_2.png)
 
@@ -45,7 +45,7 @@ In AzureML we run HyperDrive on two parameters, which are arguably the two most 
 
 ### Results
 
-Hyperdrive experiment produced a model with 80% accuracy.
+Hyperdrive experiment produced a model with 80% accuracy. This model is having 230 estimators and maximum depth of 13.
 
 ![alt text](https://github.com/davijit868/Azure-ML-Engineer-Capstone/blob/master/Screenshots/Screenshot_9.png)
 
@@ -73,7 +73,7 @@ The endpoint is consumed with a JSON request where the data field is the diction
 
 ![alt text](https://github.com/davijit868/Azure-ML-Engineer-Capstone/blob/master/Screenshots/Screenshot_17.png)
 
-## Improvement:
+## Improvements:
 - Different Configuration settings can be tried for both AutoML as well as Hyperdrive parameter.
 - With hyperdrive different model like deep learning or XGBoost can also be tried.
 
