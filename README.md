@@ -1,12 +1,12 @@
 # Udacity Azure Machine Learning Engineer Capstone
 
-This is the final project for Udacity Machine Learning Engineer with Microsoft Azure Nanodegree. In this project heart failure dataset is taken from Kaggle. The project pipeline is built entierly on the AzureML ecosystem and relies on AutoML and HyperDrive to find and tune the best model for classification. The the best model out of the two is then deployed and an endpoint is available for real-time predictions. This project is all about giving a high-level understanding of the components of Azure and how they work together to assist in the process of building, deploying, and maintaining machine learning models.
+This is the final project for Udacity Machine Learning Engineer with Microsoft Azure Nanodegree. In this project heart failure dataset is taken from Kaggle. The project pipeline is built entierly on the AzureML ecosystem and relies on AutoML and HyperDrive to find and tune the best model for classification. The best model out of the two is then deployed and an endpoint is available for real-time predictions. This project is all about giving a high-level understanding of the components of Azure and how they work together to assist in the process of building, deploying, and maintaining machine learning models.
 
 ## Dataset
 
 ### Overview
 > Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 31% of all deaths worlwide.
-Heart failure is a common event caused by CVDs and this dataset contains 12 features that can be used to predict mortality by heart failure.
+Heart failure is a common event caused by CVDs and this dataset contains 12 features that can be used to predict mortality by heart failure. The dataset contins 300 rows. refer https://www.kaggle.com/andrewmvd/heart-failure-clinical-data. 
 
 ### Task
 
