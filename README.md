@@ -69,13 +69,13 @@ AutoML resulted a better model than hyperdrive experiment in terms of accuracy. 
 
 ![alt text](https://github.com/davijit868/Azure-ML-Engineer-Capstone/blob/master/Screenshots/Screenshot_16.png)
 
-The endpoint is consumed with a JSON request where the data field is the dictionary representation of the data point to predict
+The endpoint is consumed with a JSON request where the data field is the dictionary representation of the data point to predict.
 
 ![alt text](https://github.com/davijit868/Azure-ML-Engineer-Capstone/blob/master/Screenshots/Screenshot_17.png)
 
 ## Improvement:
 - Different Configuration settings can be tried for both AutoML as well as Hyperdrive parameter.
-- With hyperdrive differeent model like deep learning or XGBoost can also be tried.
+- With hyperdrive different model like deep learning or XGBoost can also be tried.
 
 ## Link to screen cast
 https://youtu.be/NeyK1PRhtV0
