@@ -1,24 +1,23 @@
-# Heart Failure predictions
+# Udacity Azure Machine Learning Engineer Capstone
 
-The goal of this project is to predict death events due to heart failure events. The data is in the comma separated values (CSV) format. Each row in this dataset describes an attributing factor for an early heart attack.
-The project pipeline is built entierly on the AzureML ecosystem and relies on AutoML and HyperDrive to find and tune the best model. 
-The final model is deployed and an endpoint is available for real-time predictions.
-To give a high-level understanding of the components of Azure and how they work together to assist in the process of building, deploying, and maintaining machine learning models.
+This is the final project for Udacity Machine Learning Engineer with Microsoft Azure Nanodegree. In this project heart failure dataset is taken from Kaggle. The project pipeline is built entierly on the AzureML ecosystem and relies on AutoML and HyperDrive to find and tune the best model for classification. The best model out of the two is then deployed and an endpoint is available for real-time predictions. This project is all about giving a high-level understanding of the components of Azure and how they work together to assist in the process of building, deploying, and maintaining machine learning models.
 
-![alt text](https://github.com/hammad-alt/nd00333-capstone/blob/master/Images/architecture.JPG)
 ## Dataset
 
 ### Overview
 > Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 31% of all deaths worlwide.
-Heart failure is a common event caused by CVDs and this dataset contains 12 features that can be used to predict mortality by heart failure.
+Heart failure is a common event caused by CVDs and this dataset contains 12 features that can be used to predict mortality by heart failure. The dataset contains 300 rows. refer https://www.kaggle.com/andrewmvd/heart-failure-clinical-data. 
 
 ### Task
 
-In this project we will train a classifier to predict the likelihood of a person to have a death event due to cardiovascular diseases. In order to use and train our models 
-on the dataset  i.e. a TabularDataset, we have registered the dataset using the option from a local file.
+In this project a classifier is trained to predict the likelihood of a person to have a death event due to cardiovascular diseases. In order to use and train our models 
+on the dataset i.e. a TabularDataset, we have registered the dataset using the option from a local file (heart_failure_clinical_records_dataset). Two models i.e. AutoML and Hyperdrive ML model on Azure is built and performance of the models is compared in terms of accuracy.
+
 ![alt text](https://github.com/hammad-alt/nd00333-capstone/blob/master/Images/reg-dataset.JPG)
 
-We will both the Auto-ML on our local machine and Hyper-parameter ML model on Azure and compare the performance of the models via a Confusion Matrix which are normalised.
+### Access
+The dataset is registered in Azure ML workspace from locally uploaded csv file. It is then consumed in both the script i.e. automl.ipynb and hyperparameter_tuning.ipynb using code. 
+
 ## Automated ML
 ![alt text](https://github.com/hammad-alt/nd00333-capstone/blob/master/Images/automl-config.JPG)
 
