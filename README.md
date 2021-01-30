@@ -73,11 +73,9 @@ verbose | 0
 
 ![alt text](https://github.com/davijit868/Azure-ML-Engineer-Capstone/blob/master/Screenshots/Screenshot_4.png)
 
-![alt text](https://github.com/davijit868/Azure-ML-Engineer-Capstone/blob/master/Screenshots/Screenshot_44.png)
+![alt text](https://github.com/davijit868/Azure-ML-Engineer-Capstone/blob/master/Screenshots/Screenshot_18.png)
 
-![alt text](https://github.com/davijit868/Azure-ML-Engineer-Capstone/blob/master/Screenshots/Screenshot_44.png)
-
-![alt text](https://github.com/davijit868/Azure-ML-Engineer-Capstone/blob/master/Screenshots/Screenshot_44.png)
+![alt text](https://github.com/davijit868/Azure-ML-Engineer-Capstone/blob/master/Screenshots/Screenshot_19.png)
 
 ![alt text](https://github.com/davijit868/Azure-ML-Engineer-Capstone/blob/master/Screenshots/Screenshot_5.png)
 
