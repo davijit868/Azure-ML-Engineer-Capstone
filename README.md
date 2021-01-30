@@ -20,6 +20,17 @@ The dataset is registered in Azure ML workspace from locally uploaded csv file. 
 ## Automated ML
 An AutoML experiment is created with the configuration mentioned in the below screenshot and using automl.ipynb.
 
+Configuration | Description | Value
+------------- | ----------- | -----
+task | The type of task to run. Values can be 'classification', 'regression', or 'forecasting' depending on the type of automated ML problem | classification
+iterations | The total number of different algorithm and parameter combinations to test during an automated ML experiment. If not specified, the default is 1000 iterations. | 30
+experiment_timeout_minutes | This is used as an exit criteria, it defines how long, in minutes, your experiment should continue to run | 15
+primary_metric | The metric that Automated Machine Learning will optimize for model selection | accuracy
+training_data | Training data, contains both features and label columns | dataset
+label_column_name | The name of the label column | DEATH_EVENT
+n_cross_validations | No. of cross validations to perform | 5 
+max_concurrent_iterations | Represents the maximum number of iterations that would be executed in parallel | 8
+
 ![alt text](https://github.com/davijit868/Azure-ML-Engineer-Capstone/blob/master/Screenshots/Screenshot_2.png)
 
 ### Results
